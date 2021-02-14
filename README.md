@@ -29,7 +29,7 @@ low risk performance:
 - precision is perfect (1.00)
 - recall is good (0.64)
 
-### Undersampling 
+### Cluster Centroid 
 ![undersampling](https://github.com/DonnieData/Credit_Risk_Analysis/blob/main/img/undersampling%20.png) <br>
 Balanced Accuracy Score: 0.6195656115160086 <br>
 high risk performance: 
@@ -74,4 +74,6 @@ low risk performance:
 - precision is perfect (1.00)
 - recall is great (0.94)
 
+## Summary 
+The F1 score can be characterized as a single summary statistic of precision and sensitivity(recall). Given this, the F1 score is a great measurment to gauge model performance. Based on F1 scores the best forming model is the Eas Ensemble Classifier with a average F1 score of 0.97. While the worst perfomring is Cluster Centroid with a average F1 score of 0.59. 
 
