@@ -2,7 +2,7 @@
 Using Resampling Models and Classifiers to Predict Credit Risk  
 
 ## Overview
-The purpose of this anaylsis is to test how machine models are able to asses credit card risk. Included models are RandomOverSampler, SMOTE, ClusterCentroids, SMOTEENN, BalancedRandomForestClassifier, and EasyEnsembleClassifier.
+The purpose of this analysis is to test how machine models are able to assess credit card risk. Included models are RandomOverSampler, SMOTE, ClusterCentroids, SMOTEENN, BalancedRandomForestClassifier, and EasyEnsembleClassifier.
 
 
 ## Results 
@@ -15,7 +15,7 @@ high risk performance:
 - recall is good (0.61)
 
 low risk performance:
-- precison is perfect (1.00)
+- precision is perfect (1.00)
 - recall is good (0.67)
 
 ### SMOTE <br>
@@ -68,12 +68,15 @@ low risk performance:
 Balanced Accuracy Score: 0.925427358175101 <br>
 high risk performance: 
 - precision is low (0.09)
-- recall is greate (0.92)
+- recall is great (0.92)
 
 low risk performance:
 - precision is perfect (1.00)
 - recall is great (0.94)
 
 ## Summary 
-The F1 score can be characterized as a single summary statistic of precision and sensitivity(recall). Given this, the F1 score is a great measurment to gauge model performance. Based on F1 scores the best forming model is the Eas Ensemble Classifier with a average F1 score of 0.97. While the worst perfomring is Cluster Centroid with a average F1 score of 0.59. 
+The F1 score can be characterized as a single summary statistic of precision and sensitivity(recall). Given this, the F1 score is a great measurement to gauge model performance. Based on F1 scores the best forming model is the Easy Ensemble Classifier with an average F1 score of 0.97. While the worst performing is Cluster Centroid with an average F1 score of 0.59. 
+
+Based on performance the Easy Ensemble Classifier model is greatly recommended for assessing credit risk. 
+
 
